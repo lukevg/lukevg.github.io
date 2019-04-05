@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Luke's Data Science Blog
+tagline:             My Journey into Data Science
+url:                 http://lukevg.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Luke Von Glan
+  url:               https://www.linkedin.com/in/lukevg/
+  email:             lukevg1@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/lukevg
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
